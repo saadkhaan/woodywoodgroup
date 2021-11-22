@@ -1,3 +1,5 @@
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
@@ -6,6 +8,7 @@ module.exports = {
     extend: {
       colors: {
         wwg: "#262267",
+        violet: colors.violet,
       },
     },
     container: {
