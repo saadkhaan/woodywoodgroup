@@ -23,7 +23,7 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <div className="container md:grid grid-cols-2 items-center md:py-20">
+        <div className="container md:grid grid-cols-2 items-center px-4 md:py-20">
           <div className="md:order-last">
             <Image src={heroEye} alt="woody wood group" />
           </div>
@@ -40,9 +40,9 @@ export default function Home() {
         </div>
       </div>
 
-      <section className="idea py-12" style={grayBg1}>
+      <section className="idea px-4 py-12 mt-6" style={grayBg1}>
         <div className="container">
-          <div className="sm:flex sm:gap-x-40">
+          <div className="sm:flex gap-x-20 2xl:gap-x-40">
             <div className="image">
               <Image
                 src="/bulb.png"
@@ -53,7 +53,7 @@ export default function Home() {
               />
             </div>
             <div className="text-box flex-1">
-              <h2 className="text-4xl leading-normal sm:leading-none md:text-7xl 2xl:text-8xl text-wwg font-bold">
+              <h2 className="text-4xl leading-normal sm:leading-none md:text-6xl 2xl:text-8xl text-wwg font-bold">
                 We Craft, Beauty!
               </h2>
               <p className="text-2xl mt-8">
