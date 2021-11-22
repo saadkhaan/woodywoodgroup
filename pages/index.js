@@ -7,6 +7,13 @@ import Button from '../components/Button';
 // Assets
 import heroEye from "../public/hero-eye.png";
 
+// Custom Styles
+const grayBg1 = {
+      backgroundImage: "url(/gray-bg-1.svg)",
+      backgroundSize: "cover",
+      backgroundRepeat: "no-repeat"
+    };
+
 export default function Home() {
   return (
     <>
@@ -33,7 +40,7 @@ export default function Home() {
         </div>
       </div>
 
-      <section className="idea bg-gray-50 py-12">
+      <section className="idea py-12" style={grayBg1}>
         <div className="container">
           <div className="sm:flex sm:gap-x-40">
             <div className="image">
@@ -42,7 +49,7 @@ export default function Home() {
                 width="435"
                 height="860"
                 layout="intrinsic"
-                objectFit='contain'
+                objectFit="contain"
               />
             </div>
             <div className="text-box flex-1">
